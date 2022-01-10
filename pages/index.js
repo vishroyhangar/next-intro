@@ -1,9 +1,16 @@
+import Head from 'next/head';
 
 const Home = () => {
   return(
-    <div>
-      <h1>Home page</h1>
-    </div>
+    <>
+    <Head>
+      <title>NEXT JS | Home</title>
+    </Head>
+
+      <div className='content__container'>
+        <h1>Home page</h1>
+      </div>
+    </>
   )
 }
 

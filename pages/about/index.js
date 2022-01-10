@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Topbar from '../../components/Topbar';
 
 const About = () => {
   return (
-    <div>
-      <h1>This is about</h1>
+    <div className='content__container'>
+      <h1>About page</h1>
     </div>
   )
 }
